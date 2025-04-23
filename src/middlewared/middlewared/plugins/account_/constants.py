@@ -28,6 +28,9 @@ ALLOWED_BUILTIN_GIDS = {
     568,  # apps
     951,  # truenas_readonly_administrators
     952,  # truenas_sharing_administrators
+    995,  # incus-admin
+    996,  # incus
+    999,  # docker
 }
 
 # TRUENAS_IDMAP_MAX + 1, this is also first ID in range allocated for Incus idmaps
